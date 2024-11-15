@@ -10,11 +10,11 @@ function Footer() {
           target="_blank"
           rel="noreferrer noopener"
         >
-          Pavan MG
+          AYOUB OIFIK
         </a>{" "}
         with
-        <span className="text-gradient font-medium"> Love</span> &
-        <span className="text-gradient font-medium"> Coffee</span>
+        <span className="text-gradient font-medium">CyberSécurité </span> &
+        <span className="text-gradient font-medium"> Coding</span>
       </p>
     </footer>
   );

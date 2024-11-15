@@ -29,6 +29,7 @@ import projectImage4 from "./assets/projects/salle.jpg";
 import projectImage5 from "./assets/projects/client.png";
 import projectImage6 from "./assets/projects/gestion des service.png";
 import projectImage7 from "./assets/projects/SIGL.png";
+import projectImage8 from "./assets/projects/téléchargement.png";
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -101,7 +102,6 @@ export const workDetails = [
 
 
 
-
 // Enter your Education Details here
 export const eduDetails = [
   {
@@ -160,7 +160,7 @@ export const projectDetails = [
     lien_github: "https://github.com/ayouboifikEnsaj/projet-de-localisation-des-pharmacies.git",
   },
   {
-    title: "Digitalisation des demandes d'achat",
+    title: "Digitalisation des demandes d'achat à l'aide d'une architecture microservices",
     image: projectImage2,
     description: `Ce projet vise à automatiser et optimiser le processus de gestion des demandes d'achat, en transformant un processus manuel en une solution numérique complète. Il a pour objectifs de réduire les délais de traitement, améliorer la transparence, minimiser les erreurs humaines et optimiser l'efficacité opérationnelle. L'architecture microservices est utilisée pour assurer une solution modulaire et scalable.`,
     technologies_utilisées: "Backend : Spring Boot, Microservices, Frontend : React, CSS : Tailwind CSS, API : Swagger, Base de données : MySQL",
@@ -174,21 +174,19 @@ export const projectDetails = [
     image: projectImage3,
     description: `Ce projet vise à optimiser la gestion des travaux pratiques (TP) pour un centre de formation dentaire grâce à une plateforme intégrée. Il permet aux administrateurs de planifier efficacement les sessions de TP, d'attribuer les professeurs et de gérer les groupes d’étudiants selon leur niveau et spécialisation. L’application mobile, dédiée aux étudiants, facilite la consultation en temps réel de leur emploi du temps, des notifications pour les sessions de TP, et améliore l'interaction avec les professeurs. Cette solution numérique contribue à une organisation fluide et une meilleure expérience d’apprentissage en dentisterie.`,
     technologies_utilisées: "Backend : Spring Boot , Kotlin(pour l'application mobile), , Frontend : thymleaf, CSS : Tailwind CSS, API : Swagger, Base de données : MySQL",
-    lien_aperçu: "https://votresite.com/demo",  // Lien vers le Live Demo
+    lien_aperçu: "https://youtu.be/2TbUk4C9kdI",  // Lien vers le Live Demo
     lien_github: "https://github.com/ayouboifikEnsaj/projet-compl-te-mobile-web",  // Lien vers le code GitHub
   },
   {
     title: "Réalisation d’un système en ligne basé sur Google Apps pour améliorer la productivité scolaire ",
     image: projectImage7,
-    description: `Réalisation d’un système en ligne basé sur Google Apps pour améliorer
- la productivité scolaire :
+    description: `Réalisation d’un système en ligne basé sur Google Apps pour améliorer la productivité scolaire :
  • Gestion de l’emploi du temps et réservation des salles.
  • Mise en place d’un système de marquage électronique des absences.
- • Développement d’un mécanisme de notifications pour les étudiants et
- utilisateurs.`,
+ • Développement d’un mécanisme de notifications pour les étudiants et utilisateurs.`,
     technologies_utilisées: "Javascript ,outils google , HTML , CSS",
     lien_aperçu: "https://youtu.be/wxvWd6mTzno",
-    lien_github: "https://github.com",
+    lien_github: "https://script.google.com/home/projects/1CkfvnjayOhwqfaULiQsP6A95S6Jtx7CCxqnNebhQf5ePQwayQHXsWtj6/edit",
   },
   {
     title: "Projet de Gestion des Clients et des Services pour une École de Soutien",
@@ -211,6 +209,16 @@ Des graphiques sont également inclus dans l'application, permettant de visualis
     lien_github: "https://github.com/ayouboifikEnsaj/gestion-des-employ-e-d-une-entreprise.git",
   },
   {
+    title: "Mise en place d’un système de surveillance et de gestion des incidents  de sécurité réseau (solution SIEM avec ELK Stack)\n",
+    image: projectImage8,
+    description: "• Configuration de pare-feu et IDS/IPS (pfSense, Snort).\n" +
+        " • Gestion des logs avec Beats, Logstash et Elasticsearch.\n" +
+        " • Visualisation des données de sécurité avec Kibana.\n" +
+        " • Intégration d’une plateforme de threat intelligence (MISP).\n" +
+        " • Gestion des incidents de sécurité avec TheHive et Cortex.\n",
+    technologies_utilisées: "ELK STACK, The hive , Cortex ,MISP ,beats",
+  },
+  {
     title: "Gestion de Salles et de Machines",
     image: projectImage4,
     description: `un projet Java axé sur la gestion de salles et de machines via une interface web conçue avec JavaServer Pages (JSP). L'objectif principal du projet est d'offrir un moyen efficace de gérer les salles et les machines au sein d'une organisation. `,
@@ -218,6 +226,20 @@ Des graphiques sont également inclus dans l'application, permettant de visualis
     lien_aperçu: "https://github.com/ayouboifikEnsaj/gestion-des-machines-et-des-salle-Java-et-JSP.git",  // Lien vers le Live Demo
     lien_github: "https://github.com/ayouboifikEnsaj/gestion-des-machines-et-des-salle-Java-et-JSP.git",  // Lien vers le code GitHub
   }
+];
+export const certifications = [
+  {
+    title: "AWSAcademyGraduate: AWS Academy",
+    issuer: "AWS Academy",
+    badgeLink: "https://www.credly.com/badges/20928fc5-d23d-4169-9d82-ed596c23ae97/public_url", // Remplacez par le lien vers le badge
+    description: "Engineering Operations Technicians",
+  },
+  {
+    title: "ISO/IEC 27001 Information Security Associate™",
+    issuer: "ISO/IEC",
+    badgeLink: "https://www.skillfront.com/Badges/23744238321315", // Remplacez par le lien vers le badge
+    description: "Information Security Associate™",
+  },
 ];
 
 // Enter your Contact Details here

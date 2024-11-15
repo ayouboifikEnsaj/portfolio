@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";  // Import de ModalVideo
 import 'react-modal-video/scss/modal-video.scss'; // Import des styles SCSS pour le modal
+import { FaGithub, FaYoutube } from "react-icons/fa"; // Import des icônes Font Awesome
 
 function Project({ titre, image, description, technologies_utilisées, lien_aperçu, lien_github }) {
     const [isOpen, setIsOpen] = useState(false); // Gestion de l'état du modal
@@ -38,13 +39,13 @@ function Project({ titre, image, description, technologies_utilisées, lien_aper
                         {videoId && (
                             <button
                                 onClick={openModal}
-                                className="text-blue-500 hover:underline"
+                                className="flex items-center text-blue-500 hover:underline"
                             >
-                                Aperçu
+                                <FaYoutube className="mr-1" /> Aperçu
                             </button>
                         )}
-                        <a href={lien_github} target="_blank" rel="noopener noreferrer" className="ml-2 text-blue-500 hover:underline">
-                            Github
+                        <a href={lien_github} target="_blank" rel="noopener noreferrer" className="flex items-center ml-4 text-blue-500 hover:underline">
+                            <FaGithub className="mr-1" /> GitHub
                         </a>
                     </div>
                 </div>
@@ -64,6 +65,7 @@ function Project({ titre, image, description, technologies_utilisées, lien_aper
 }
 
 export default Project;
+
 
 // import React from "react";
 //

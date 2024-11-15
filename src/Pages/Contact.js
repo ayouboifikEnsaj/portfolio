@@ -1,22 +1,68 @@
-import React from "react";
-import { contactDetails } from "../Details";
+import React, {useState} from "react";
+import './ContactForm.css'
 
 function Contact() {
-  const { email, phone } = contactDetails;
-  return (
-    <main className="container mx-auto max-width section">
-      <h1 className="text-center text-2xl md:text-3xl lg:text-6xl text-dark-heading dark:text-light-heading font-semibold md:font-bold">
-        For any questions please drop a mail
-      </h1>
-      <h3 className="text-center text-3xl md:text-4xl lg:text-6xl text-gradient font-semibold md:font-bold pt-5 md:pt-10 md:pb-6">
-        <a href={`mailto:${email}`}>{email}</a>
-      </h3>
-      <span className="text-center text-content text-xl font-light block">or</span>
-      <h3 className="text-center text-3xl md:text-4xl lg:text-6xl text-gradient font-semibold md:font-bold pt-2 md:py-6">
-        <a href={`tel:${phone}`}>{phone}</a>
-      </h3>
-    </main>
-  );
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: ''
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value
+        }));
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        // Envoyez les données du formulaire ici
+        console.log('Form submitted:', formData);
+        setFormData({
+            name: '',
+            email: '',
+            message: ''
+        });
+    };
+    return (
+        <div className="contact-container">
+            <h1>Contactez-nous</h1>
+            <p>Vous avez une question ? Nous aimerions avoir de vos nouvelles. Envoyez-nous un message et nous vous
+                répondrons dans les plus brefs délais.</p>
+            <form onSubmit={handleSubmit}>
+                <label>Nom*</label>
+                <input
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                />
+
+                <label>address Email *</label>
+                <input
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                />
+
+                <label>Message</label>
+                <textarea
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    rows="4"
+                ></textarea>
+
+                <button type="submit">Envoyer Message</button>
+            </form>
+        </div>
+
+    );
 }
 
 export default Contact;
