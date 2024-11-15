@@ -30,6 +30,7 @@ import projectImage5 from "./assets/projects/client.png";
 import projectImage6 from "./assets/projects/gestion des service.png";
 import projectImage7 from "./assets/projects/SIGL.png";
 import projectImage9 from "./assets/projects/cita.png";
+import projectImage10 from "./assets/projects/py-vsualizer.png";
 import projectImage8 from "./assets/projects/téléchargement.png";
 // Logos
 export const logos = {
@@ -191,6 +192,14 @@ export const projectDetails = [
     technologies_utilisées: "Backend : Spring Boot, Frontend : Thymeleaf, HTML, CSS, JavaScript, AJAX, Tailwind CSS, Base de données : MySQL",
     lien_aperçu: "https://youtu.be/FyVnBFGFZKo?si=63mRcDrb-09DNb88",
     lien_github: "https://github.com/ayouboifikEnsaj/projet-de-localisation-des-pharmacies.git",
+  },
+  {
+    title: "Vehicle Routing Desktop Application ",
+    image: projectImage10,
+    description: `Une application de bureau innovante conçue pour optimiser les itinéraires de véhicules en utilisant l'algorithme de Dijkstra et l'API Google Maps. Elle permet de visualiser en temps réel les chemins les plus courts entre plusieurs points avec une interface intuitive développée en PyQt. Ce projet illustre des compétences avancées en développement logiciel, en algorithmes d’optimisation et en intégration d’API pour répondre aux besoins de planification dans la logistique et les transports.`,
+    technologies_utilisées: "Algorithme de Dijkstra , API Google Maps , PyQt ",
+    lien_aperçu: "https://youtu.be/UU6PoG0rlNc",
+    lien_github: "https://github.com/ayouboifikEnsaj/Vehicle-Routing-Desktop-Application.git",
   },
 
   {
