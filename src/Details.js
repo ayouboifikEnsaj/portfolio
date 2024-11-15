@@ -155,12 +155,11 @@ export const projectDetails = [
   {
     title: "Système de Gestion des incidents Techniques des Aéroports ",
     image: projectImage9,
-    description: "Conception, réalisation et déploiement d’une applicationweb et mobile pour la gestion des incidents." +
-        "Interfaces conviviales pour le reporting et le suivi des incidents ,dédiée aux techniciens pour faciliter la gestion des tickets.\n" +
-        "Sécurité robuste assurée par Spring Security pour la protection des APIs.\n" +
-        "Déploiement sur VPS avec Nginx.\n" +
-        "Analyse de code, détection des bugs et vulnérabilités avec\n" +
-        "SonarQube.\n",
+    description: `- Conception, réalisation et déploiement d’une application web  pour la gestion des incidents.
+     - Interfaces conviviales pour le reporting et le suivi des incidents ,dédiée aux techniciens pour faciliter la gestion des tickets.
+     - Sécurité robuste assurée par Spring Security pour la protection des APIs.
+     - Déploiement sur VPS avec Nginx.
+     - Analyse de code, détection des bugs et vulnérabilités avec SonarQube.`,
     technologies_utilisées: "Outils:SpringBoot,SpringSecurity,Angular,Nginx,ChartJs,SonarQube.",
     lien_aperçu: "https://youtu.be/r-GDTgwjMto",  // Lien vers le Live Demo
     lien_github: "https://github.com/ayouboifikEnsaj/back-front-gestion-des-incident.git",  // Lien vers le code GitHub
