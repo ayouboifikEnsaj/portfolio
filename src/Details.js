@@ -29,6 +29,7 @@ import projectImage4 from "./assets/projects/salle.jpg";
 import projectImage5 from "./assets/projects/client.png";
 import projectImage6 from "./assets/projects/gestion des service.png";
 import projectImage7 from "./assets/projects/SIGL.png";
+import projectImage9 from "./assets/projects/cita.png";
 import projectImage8 from "./assets/projects/téléchargement.png";
 // Logos
 export const logos = {
@@ -152,13 +153,20 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Gestion et localisation des pharmacies",
-    image: projectImage1,
-    description: `Développement d'une application web pour la gestion et la localisation des pharmacies, y compris les pharmacies de garde. Cette application permet aux administrateurs de gérer les informations des pharmacies (horaires, services) et aux utilisateurs de localiser les pharmacies ouvertes à proximité via l'intégration de l'API Google Maps. Les utilisateurs peuvent également consulter les horaires et les services des pharmacies de garde.`,
-    technologies_utilisées: "Backend : Spring Boot, Frontend : Thymeleaf, HTML, CSS, JavaScript, AJAX, Tailwind CSS, Base de données : MySQL",
-    lien_aperçu: "https://youtu.be/FyVnBFGFZKo?si=63mRcDrb-09DNb88",
-    lien_github: "https://github.com/ayouboifikEnsaj/projet-de-localisation-des-pharmacies.git",
+    title: "Système de Gestion des incidents Techniques des Aéroports ",
+    image: projectImage9,
+    description: "Conception, réalisation et déploiement d’une applicationweb et mobile pour la gestion des incidents." +
+        "Interfaces conviviales pour le reporting et le suivi des incidents ,dédiée aux techniciens pour faciliter la gestion des tickets.\n" +
+        "Sécurité robuste assurée par Spring Security pour la protection des APIs.\n" +
+        "Déploiement sur VPS avec Nginx.\n" +
+        "Analyse de code, détection des bugs et vulnérabilités avec\n" +
+        "SonarQube.\n",
+    technologies_utilisées: "Outils:SpringBoot,SpringSecurity,Angular,Nginx,ChartJs,SonarQube.",
+    lien_aperçu: "https://youtu.be/r-GDTgwjMto",  // Lien vers le Live Demo
+    lien_github: "https://github.com/ayouboifikEnsaj/back-front-gestion-des-incident.git",  // Lien vers le code GitHub
   },
+
+
   {
     title: "Digitalisation des demandes d'achat à l'aide d'une architecture microservices",
     image: projectImage2,
@@ -177,6 +185,15 @@ export const projectDetails = [
     lien_aperçu: "https://youtu.be/2TbUk4C9kdI",  // Lien vers le Live Demo
     lien_github: "https://github.com/ayouboifikEnsaj/projet-compl-te-mobile-web",  // Lien vers le code GitHub
   },
+  {
+    title: "Gestion et localisation des pharmacies",
+    image: projectImage1,
+    description: `Développement d'une application web pour la gestion et la localisation des pharmacies, y compris les pharmacies de garde. Cette application permet aux administrateurs de gérer les informations des pharmacies (horaires, services) et aux utilisateurs de localiser les pharmacies ouvertes à proximité via l'intégration de l'API Google Maps. Les utilisateurs peuvent également consulter les horaires et les services des pharmacies de garde.`,
+    technologies_utilisées: "Backend : Spring Boot, Frontend : Thymeleaf, HTML, CSS, JavaScript, AJAX, Tailwind CSS, Base de données : MySQL",
+    lien_aperçu: "https://youtu.be/FyVnBFGFZKo?si=63mRcDrb-09DNb88",
+    lien_github: "https://github.com/ayouboifikEnsaj/projet-de-localisation-des-pharmacies.git",
+  },
+
   {
     title: "Réalisation d’un système en ligne basé sur Google Apps pour améliorer la productivité scolaire ",
     image: projectImage7,
@@ -197,6 +214,16 @@ export const projectDetails = [
     lien_github: "https://github.com/ayouboifikEnsaj/projet-gestion-des-clients-d-une--ecole-.git",
   },
   {
+    title: "Mise en place d’un système de surveillance et de gestion des incidents  de sécurité réseau (solution SIEM avec ELK Stack)\n",
+    image: projectImage8,
+    description: "• Configuration de pare-feu et IDS/IPS (pfSense, Snort).\n" +
+        " • Gestion des logs avec Beats, Logstash et Elasticsearch.\n" +
+        " • Visualisation des données de sécurité avec Kibana.\n" +
+        " • Intégration d’une plateforme de threat intelligence (MISP).\n" +
+        " • Gestion des incidents de sécurité avec TheHive et Cortex.\n",
+    technologies_utilisées: "ELK STACK, The hive , Cortex ,MISP ,beats",
+  },
+  {
     title: "Projet JSF de Gestion des Employés d'une Entreprise",
     image: projectImage6,
     description: `avec JSF et Hibernate, conçue pour gérer les employés et les services au sein d'une entreprise. L'objectif principal de cette application est de fournir une interface intuitive permettant aux administrateurs de gérer facilement les employés, leurs services respectifs et d'obtenir des statistiques pertinentes pour une gestion optimisée des ressources humaines.
@@ -208,16 +235,7 @@ Des graphiques sont également inclus dans l'application, permettant de visualis
     lien_aperçu: "https://youtu.be/EaVZqnJim0M",
     lien_github: "https://github.com/ayouboifikEnsaj/gestion-des-employ-e-d-une-entreprise.git",
   },
-  {
-    title: "Mise en place d’un système de surveillance et de gestion des incidents  de sécurité réseau (solution SIEM avec ELK Stack)\n",
-    image: projectImage8,
-    description: "• Configuration de pare-feu et IDS/IPS (pfSense, Snort).\n" +
-        " • Gestion des logs avec Beats, Logstash et Elasticsearch.\n" +
-        " • Visualisation des données de sécurité avec Kibana.\n" +
-        " • Intégration d’une plateforme de threat intelligence (MISP).\n" +
-        " • Gestion des incidents de sécurité avec TheHive et Cortex.\n",
-    technologies_utilisées: "ELK STACK, The hive , Cortex ,MISP ,beats",
-  },
+
   {
     title: "Gestion de Salles et de Machines",
     image: projectImage4,
