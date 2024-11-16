@@ -31,6 +31,7 @@ import projectImage6 from "./assets/projects/gestion des service.png";
 import projectImage7 from "./assets/projects/SIGL.png";
 import projectImage9 from "./assets/projects/cita.png";
 import projectImage10 from "./assets/projects/py-vsualizer.png";
+import projectImage11 from "./assets/projects/app00.png";
 import projectImage8 from "./assets/projects/téléchargement.png";
 // Logos
 export const logos = {
@@ -186,6 +187,15 @@ export const projectDetails = [
     technologies_utilisées: "Backend : Spring Boot , Kotlin(pour l'application mobile), , Frontend : thymleaf, CSS : Tailwind CSS, API : Swagger, Base de données : MySQL",
     lien_aperçu: "https://youtu.be/2TbUk4C9kdI",  // Lien vers le Live Demo
     lien_github: "https://github.com/ayouboifikEnsaj/projet-compl-te-mobile-web",  // Lien vers le code GitHub
+  },
+
+  {
+    title: "Lire les information d'une carte NFC",
+    image: projectImage11,
+    description: `Le projet Lire Carte NFC est une application Android qui permet de lire les informations d'une carte NFC, comme le numéro de la carte et la date d'expiration, en utilisant la communication sans contact. L'application interroge la carte via le protocole NFC, récupère les données pertinentes et les affiche à l'utilisateur. Ce projet est conçu pour démontrer l'interaction avec des cartes NFC pour des cas d'utilisation tels que l'identification et les paiements sans contact. Il met en avant des compétences en technologies NFC, sécurité mobile, et cryptographie.`,
+    technologies_utilisées: "java ",
+    lien_aperçu: "",
+    lien_github: "https://github.com/ayouboifikEnsaj/lire-carte-NFC",
   },
   {
     title: "Gestion et localisation des pharmacies",
